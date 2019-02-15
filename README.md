@@ -24,3 +24,17 @@ A PVC can be identified using the following symptoms:
  
 
 PVCs are not only prominent and detectable, they are suspected to have negative effects on health. Even though they are not actionable, which means there is no means to stop them or cure them, a recent study (Lin and al., 2017) showed that PVCs are “associated with a higher incidence of all-cause mortality, cardiovascular hospitalization, all-cause hospitalization, and new-onset heart failure which was independent of other clinical risk factors”. For all these reasons, PVC is the primary subject of study for our team.
+
+### Preprocessing
+
+To reduce noise wavelet transform have been used according to a result from multiple papers (Hari et al, 2018). The wandering baseline is removed by moving average smoothing.
+
+
+
+
+Drew BJ, Harris P, Zègre-Hemsey JK, Mammone T, Schindler D, Salas-Boni R, et al. (2014) Insights into the Problem of Alarm Fatigue with Physiologic Monitor Devices: A Comprehensive Observational Study of Consecutive Intensive Care Unit Patients. PLoS ONE 9(10): e110274. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0110274  
+
+Hari Mohan Rai, Kalyan Chatterjee, A unique feature extraction using MRDWT for automatic classification of abnormal heartbeat from ECG big data with Multilayered Probabilistic Neural Network classifier, Applied Soft Computing, Volume 72, 2018, Pages 596-608, ISSN 1568-4946, https://doi.org/10.1016/j.asoc.2018.04.005. (http://www.sciencedirect.com/science/article/pii/S156849461830190X)
+
+Lin CY, Chang SL, Lin YJ, et al. An observational study on the effect of premature ventricular complex burden on long-term outcome. Medicine (Baltimore). 2017;96(1):e5476.
+
