@@ -7,7 +7,7 @@ A study conducted in 2014 (Drew and al.,  2014) during one month in UCSF’s Int
 Current patient monitoring devices can detect PVCs because of their unique characteristics. In a normal electrocardiogram, heartbeats are usually decomposed into 3 phases, each corresponding to a specific electrical polarization of the heart’s muscles that include: the P wave, QRS wave and T wave. These 3 phases are shown in Figure 1 as shown below :
 
 
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/SinusRhythmLabels.svg/280px-SinusRhythmLabels.svg.png"  width="50%" height="50%" ></p>
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/SinusRhythmLabels.svg/280px-SinusRhythmLabels.svg.png"  width="40%" height="40%" ></p>
 <p align="center">Figure 1: Regular heartbeat with P wave, QRS wave and T wave</p>
 
 
