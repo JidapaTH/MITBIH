@@ -27,7 +27,16 @@ PVCs are not only prominent and detectable, they are suspected to have negative 
 
 ### Preprocessing
 
-To reduce noise wavelet transform have been used according to a result from multiple papers (Hari et al, 2018). The wandering baseline is removed by moving average smoothing.
+Use package biosppy to detect peak. 
+<p align="center"> <img src="https://github.com/JidapaTH/MITBIH/blob/master/rpeak.png"  width="50%" height="50%" ></p>
+
+
+To reduce noise wavelet transform have been used according to a result from Hari's paper (Hari et al, 2018). 
+<p align="center"> <img src="https://github.com/JidapaTH/MITBIH/blob/master/wavelet.png"  width="50%" height="50%" ></p>
+
+
+The wandering baseline is removed by moving average smoothing.
+<p align="center"> <img src="https://github.com/JidapaTH/MITBIH/blob/master/rebase.png"  width="50%" height="50%" ></p>
 
 
 #### Reference
@@ -37,4 +46,7 @@ Drew BJ, Harris P, Zègre-Hemsey JK, Mammone T, Schindler D, Salas-Boni R, et al
 Hari Mohan Rai, Kalyan Chatterjee, A unique feature extraction using MRDWT for automatic classification of abnormal heartbeat from ECG big data with Multilayered Probabilistic Neural Network classifier, Applied Soft Computing, Volume 72, 2018, Pages 596-608, ISSN 1568-4946, https://doi.org/10.1016/j.asoc.2018.04.005. (http://www.sciencedirect.com/science/article/pii/S156849461830190X)
 
 Lin CY, Chang SL, Lin YJ, et al. An observational study on the effect of premature ventricular complex burden on long-term outcome. Medicine (Baltimore). 2017;96(1):e5476.
+
+Biosppy package
+https://biosppy.readthedocs.io/en/stable/biosppy.signals.html#biosppy-signals-ecg
 
